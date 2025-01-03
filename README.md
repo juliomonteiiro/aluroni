@@ -1,46 +1,91 @@
-# Getting Started with Create React App
+# Projeto de Curso: React Router
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este repositório contém o projeto desenvolvido durante o curso de **React: Conhecendo a Biblioteca React Router**. O objetivo principal deste projeto foi aprender como utilizar a biblioteca `react-router-dom` para criar uma aplicação React de uma página (SPA) com navegação entre telas, reutilização de componentes, e organização eficiente de rotas.
 
-## Available Scripts
+## Repositório
 
-In the project directory, you can run:
+O código completo deste projeto pode ser encontrado no [GitHub - Aluroni](https://github.com/juliomonteiiro/aluroni.git).
 
-### `npm start`
+## Objetivos do Curso
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Durante o curso, os principais objetivos foram:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Refatoração com ESLint:** Aprender a refatorar um projeto React com a ferramenta ESLint para garantir um código mais limpo e sem erros.
+- **Desenvolvimento Escalável:** Criar um código React escalável, priorizando legibilidade, manutenção e boas práticas.
+- **Uso do React Router:** Aplicar o pacote `react-router-dom` para gerenciar rotas dentro de uma aplicação SPA.
+- **Integração com o Navegador:** Explorar como o `react-router-dom` interage com o navegador para gerenciar as rotas e compartilhar estados.
+- **Criação de Telas e Navegação:** Criar várias telas, navegando entre elas de diferentes maneiras e reutilizando componentes.
+- **Nested Routes:** Aprender sobre rotas aninhadas (nested routes) para reaproveitar código e melhorar a estrutura da aplicação.
 
-### `npm test`
+## Estrutura do Curso
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O curso é dividido em módulos que cobrem os principais conceitos do React Router. Aqui está a lista de módulos abordados:
 
-### `npm run build`
+1. **O que é SPA?**
+   - Conceito de SPA (Single Page Application)
+   - Como o React pode ser utilizado para criar uma SPA.
+   
+2. **Estrutura Básica do React Router DOM**
+   - Introdução ao `react-router-dom`
+   - Configuração inicial do Router.
+   
+3. **Criando as Rotas**
+   - Como criar e gerenciar as rotas utilizando o `Route` do React Router.
+   
+4. **React Router Hooks**
+   - Uso de hooks como `useHistory`, `useLocation`, `useParams` e outros para navegar e gerenciar estados das rotas.
+   
+5. **Finalizando o Projeto**
+   - Desenvolvimento completo da aplicação com navegação entre telas e aplicação das boas práticas.
+   
+6. **Ajustes NotFound e Header**
+   - Implementação de uma tela NotFound para rotas inexistentes e ajustes no cabeçalho da aplicação.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Como Rodar o Projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clonar o repositório:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   git clone https://github.com/juliomonteiiro/aluroni.git
+   ```
 
-### `npm run eject`
+2. **Instalar as dependências:**
+  - Navegue até o diretório do projeto e instale as dependências utilizando o npm ou yarn:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+   ```bash
+    cd aluroni
+    npm install
+    # ou
+    yarn install
+   ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Iniciar o servidor de desenvolvimento:**
+  - Após a instalação das dependências, inicie o servidor local para ver a aplicação funcionando:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+   ```bash
+    npm start
+    # ou
+    yarn start
+   ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+4. **Acessar no navegador:**
+ - O projeto estará disponível em http://localhost:3000.
 
-## Learn More
+## Conceitos Abordados
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Single Page Application (SPA):** Como construir uma aplicação web onde todas as interações acontecem sem recarregar a página.
+- **React Router DOM:** Ferramenta para navegação entre componentes React, gerenciando as rotas da aplicação de forma eficiente.
+- **Hooks do React Router:** Como usar hooks como `useNavigate`, `useLocation` e `useParams` para controlar a navegação e acessar dados da URL.
+- **Nested Routes:** Como organizar as rotas de maneira hierárquica e reaproveitar componentes.
+- **ESLint:** Como configurar o ESLint para manter o código limpo e evitar erros comuns.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Tecnologias Utilizadas
+
+- **React:** Biblioteca JavaScript para construir interfaces de usuário.
+- **React Router DOM:** Biblioteca para gerenciar rotas em aplicações React.
+- **ESLint:** Ferramenta para identificar e corrigir problemas no código JavaScript.
+
+## Conclusão
+
+Este projeto tem como objetivo solidificar o aprendizado sobre navegação e organização de rotas em aplicações React. Ao seguir este curso, você será capaz de criar aplicações escaláveis, com rotas dinâmicas e reutilização de componentes, além de aplicar boas práticas de código.
+
